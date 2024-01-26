@@ -1,4 +1,5 @@
 # Shell script to print the next Yom Tov
+# Uses hebcal
 #!/bin/sh
 
 TODAY=$(date -d 'today' +%s)						# Today's date as UNIX timestamp at midnight
